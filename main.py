@@ -1,7 +1,5 @@
 # sum_of_two_numbers.py
-
 def calculate_sum(num1, num2):
-    
     return num1 + num2
 
 # Example usage
