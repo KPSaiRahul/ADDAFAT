@@ -21,4 +21,3 @@ def fibonacci(n):
 # Generate the first 10 terms of the Fibonacci sequence
 fib_sequence = fibonacci(10)
 print(fib_sequence)  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-
