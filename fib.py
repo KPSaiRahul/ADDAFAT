@@ -1,3 +1,7 @@
+"""
+This module provides a function to generate the Fibonacci sequence up to the nth term.
+"""
+
 def fibonacci(n):
     """
     Generate the Fibonacci sequence up to the nth term.
@@ -12,12 +16,12 @@ def fibonacci(n):
         return []
     if n == 1:
         return [0]
-    else:
-        sequence = [0, 1]
-        for i in range(2, n):
-            next_term = sequence[i - 1] + sequence[i - 2]
-            sequence.append(next_term)
-        return sequence
+
+    sequence = [0, 1]
+    for i in range(2, n):
+        next_term = sequence[i - 1] + sequence[i - 2]
+        sequence.append(next_term)
+    return sequence
 
 # Generate the first 10 terms of the Fibonacci sequence
 fib_sequence = fibonacci(10)
